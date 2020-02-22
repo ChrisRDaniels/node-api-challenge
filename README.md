@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+We learned about using/writing middleware and how to use routing with express servers.
+
 - [ ] Describe Middleware?
+
+A piece of code that is used when a request is made to a server. It will tell the server to dispatch an action/actions before fulfilling a request and returning a response.
 
 - [ ] Describe a Resource?
 
+A resource is any piece of information that can be used within development.( document, database, image, file, etc.)
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+A status code and message and an error message if needed to explain why a request was not fulfilled.
+
 - [ ] How can we partition our application into sub-applications?
+
+We can use react router in order to split a server we create into multiple pages based upon their endpoints.
 
 ## Minimum Viable Product
 
